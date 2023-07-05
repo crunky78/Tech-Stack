@@ -23,6 +23,10 @@
   ##### JIT(Just-In-Time) Compiler : 적절한 시간에 전체 바이트 코드를 네이티브 코드로 변경해서 실행하므로 성능이 인터프리터보다 속도 면에서 성능이 더 좋다.
 * #### Garbage Collector
   Heap 메모리 영역에 적재된 객체들 중 더이상 사용하지 않는 객체들을 탐색 후 제거하는 역할을 한다. 또한 Garbage Collector를 수행하는 동안 Garbage Collector를 수행하는 쓰레드가 아닌 다른 모든  쓰레드가 일시 정지된다.
+* #### Java Native Interface (JNI)
+  JNI는 기본 메서드 라이브러리와 상호 작용하고 실행 엔진에 필요한 기본 라이브러리를 제공한다.
+* #### Native Method Libraries
+  실행 엔진에 필요한 기본 라이브러리 모음
   
 
 
